@@ -6,6 +6,7 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Quests from './pages/Quests'
+import Habits from './pages/Habits'
 import Achievements from './pages/Achievements'
 import Challenges from './pages/Challenges'
 import WeeklyReport from './pages/WeeklyReport'
@@ -26,6 +27,7 @@ export default function App() {
       >
         <Route index element={<Dashboard />} />
         <Route path="quests" element={<Quests />} />
+        <Route path="habits" element={<Habits />} />
         <Route path="achievements" element={<Achievements />} />
         <Route path="challenges" element={<Challenges />} />
         <Route path="report" element={<WeeklyReport />} />

@@ -73,8 +73,8 @@ export default function Layout() {
 
       <div className="nav">
         <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}><span className="ic">◆</span> Dashboard</NavLink>
-        <NavLink to="/habits" className={({ isActive }) => isActive ? 'active' : ''}><span className="ic">⟳</span> Habits</NavLink>
         <NavLink to="/quests" className={({ isActive }) => isActive ? 'active' : ''}><span className="ic">☰</span> Quests</NavLink>
+         <NavLink to="/habits" className={({ isActive }) => isActive ? 'active' : ''}><span className="ic">⟳</span> Habits</NavLink>
         <NavLink to="/achievements" className={({ isActive }) => isActive ? 'active' : ''}><span className="ic">✦</span> Achievements</NavLink>
         <NavLink to="/challenges" className={({ isActive }) => isActive ? 'active' : ''}><span className="ic">⚔</span> Challenges</NavLink>
         <NavLink to="/report" className={({ isActive }) => isActive ? 'active' : ''}><span className="ic">✎</span> Weekly Report</NavLink>
